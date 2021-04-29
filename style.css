@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5%;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* --- Card Sections --- */
+
+section {
+  min-height: 28rem;
+  padding: 13%;
+}
+
+.sedan {
+  border-radius: 10px 10px 0 0;
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  border-radius: 0 0 10px 10px;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sedan,
+.suv,
+.luxury {
+  max-width: 337px;
+}
+
+/* --- Inner Card Container --- */
+
+div {
+  position: relative;
+  top: 2rem;
+}
+
+/* --- Images --- */
+
+img {
+  position: relative;
+  bottom: 2rem;
+}
+
+/* --- Heading --- */
+
+h2 {
+  color: white;
+  font-size: 3rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+/* --- Paragraph --- */
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5rem;
+}
+
+/* --- Buttons --- */
+
+.btn {
+  top: 1.5rem;
+  width: 9rem;
+  height: 3rem;
+  padding: 5%;
+  border: none;
+  position: relative;
+  font-size: 1rem;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 50px;
+  text-decoration: none;
+  background-color: white;
+}
+
+.sedan-btn {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-btn {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-btn {
+  color: hsl(179, 100%, 13%);
+}
+
+.sedan-btn:hover {
+  color: hsl(31, 100%, 35%);
+}
+
+.suv-btn:hover {
+  color: hsl(184, 100%, 34%);
+}
+
+.luxury-btn:hover {
+  color: hsl(179, 100%, 28%);
+}
+
+/* --- Links --- */
+
+.attribution {
+  text-align: center;
+}
+
+a {
+  color: rgb(22, 126, 126);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(33, 190, 190);
+}
